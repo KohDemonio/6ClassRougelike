@@ -1,0 +1,48 @@
+// DM Environment file for BYONDBoost Setup.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include <deviantcoder\byondboost\ByondBoost.dme>
+#include "Game\Code\00-Dependencies\00-Defines.dm"
+#include "Game\Code\00-Dependencies\01-Project Libraries.dm"
+#include "Game\Code\01-Defaults\00-Game Defaults.dm"
+#include "Game\Code\01-Defaults\01-Update Loop Priorities.dm"
+#include "Game\Code\02-Game\00-Game.dm"
+#include "Game\Code\02-Game\01-Startup.dm"
+#include "Game\Code\02-Game\Map\Objs\PhysicsObj.dm"
+#include "Game\Code\02-Game\Map\Objs\Scannable.dm"
+#include "Game\Code\02-Game\Map\Objs\Scenery.dm"
+#include "Game\Code\02-Game\Map\Turfs\00 - TeleportTurf Datum.dm"
+#include "Game\Code\02-Game\Map\Turfs\PhysicsTurf.dm"
+#include "Game\Code\02-Game\Map\Turfs\TeleporterTurf.dm"
+#include "Game\Code\02-Game\Map\Turfs\WorldTurf.dm"
+#include "Game\Code\02-Game\Player\00-Player.dm"
+#include "Game\Code\02-Game\Player\01-Input.dm"
+#include "Game\Code\02-Game\Player\Chat\ChatHandler.dm"
+#include "Game\Code\02-Game\Scenes\MainScene\00-MainScene.dm"
+#include "Game\Code\02-Game\Scenes\MainScene\Transitions\00-MainTransition.dm"
+#include "Game\Code\02-Game\Sounds\00-General Sounds.dm"
+#include "Game\Code\02-Game\Windows\00-MainWindow.dm"
+#include "Game\Code\02-Game\Windows\DisplayMaps\00-MainDisplayMap.dm"
+#include "Game\Code\02-Game\Windows\DisplayWindows\00-MainDisplayWindow.dm"
+#include "Game\Code\03-Debug\00-Defines.dm"
+#include "Game\Code\03-Debug\01-DebugManager.dm"
+#include "Game\Maps\00-MainMap.dmm"
+#include "Game\Skin\Skin.dmf"
+#include "System\00-System\00-Defines.dm"
+#include "System\00-System\01-System.dm"
+#include "System\Init\00-Init.dm"
+// END_INCLUDE
+

@@ -1,0 +1,24 @@
+#ifdef __MAIN__
+#define ROOT_PATH "../"
+#endif
+
+#ifdef DEBUG
+#define BUILD_PATH "Testing/"
+#else
+#define BUILD_PATH "Official/"
+#endif
+
+#define FILE_DIR ../Game/
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+// BEGIN_INCLUDE
+#include "00-System\00-Defines.dm"
+#include "00-System\01-System.dm"
+#include "Init\00-Init.dm"
+// END_INCLUDE

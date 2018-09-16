@@ -1,0 +1,20 @@
+// BEGIN_INTERNALS
+/*
+MAP_ZOOM: 1.000
+LAST_COMPILE_TIME: 1536897043
+PACKAGE_RSC_NAME: D:\DeviantCoder\Repositories\GitLab\Byond\ByondBoost\ByondBoost\Example Setup\Game\Game_rsc.zip
+DIR: Assets\General Assets\General\Characters Assets\General\Defaults Assets\General\Fonts Assets\General\GUI Assets\Map Assets\Map\Objs Assets\Map\Turfs Code Code\00-Dependencies Code\01-Defaults Code\02-Game Code\02-Game\Datums Code\02-Game\Map Code\02-Game\Map\Turfs 
+AUTO_FILE_DIR: ON
+PACKAGE_DMB_INFO: 
+MAP_ICON_TYPE: 0
+PACKAGE_DME_NAME: D:\DeviantCoder\Repositories\GitLab\Byond\ByondBoost\ByondBoost\Example Setup\Game\Game_src.zip
+LAST_COMPILE_VERSION: 512.1448
+PACKAGE_DME_START: 
+PACKAGE_TYPE: 0
+PACKAGE_DME_INFO: 
+WINDOW: 00-Documentation.dm;Code\02-Game\Map\Turfs\WorldTurf.dm;Code\02-Game\Map\Turfs\TeleporterTurf.dm;Code\02-Game\Map\Turfs\PhysicsTurf.dm;Code\02-Game\Map\Turfs\00 - TeleportTurf Datum.dm;Code\01-Defaults\01-Update Loop Priorities.dm;Game.dme;Code\02-Game\01-Startup.dm
+FILE: Code\02-Game\01-Startup.dm
+PACKAGE_DME_DEMO: 
+PACKAGE_DMB_NAME: D:\DeviantCoder\Repositories\GitLab\Byond\ByondBoost\ByondBoost\Example Setup\Game\Game.zip
+*/
+// END_INTERNALS

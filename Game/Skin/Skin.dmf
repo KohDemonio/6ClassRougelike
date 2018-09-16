@@ -1,0 +1,50 @@
+macro "GameMacros"
+
+
+window "Main"
+	elem "Main"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		is-default = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		macro = "GameMacros"
+	elem "MainChild"
+		type = CHILD
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = #000000
+		is-default = true
+		saved-params = "splitter"
+		is-vert = false
+
+window "MainMapPane"
+	elem "MainMapPane"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "MainMap"
+		type = MAP
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		is-default = true
+		saved-params = "zoom;letterbox;zoom-mode"
+

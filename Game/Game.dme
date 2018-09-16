@@ -1,0 +1,62 @@
+//Path to the Root of the Project.
+#ifdef __MAIN__
+#define ROOT_PATH "../"
+#endif
+//
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "Assets"
+#define FILE_DIR "Assets/General"
+#define FILE_DIR "Assets/General/Characters"
+#define FILE_DIR "Assets/General/Defaults"
+#define FILE_DIR "Assets/General/GUI"
+#define FILE_DIR "Assets/Map"
+#define FILE_DIR "Assets/Map/Objs"
+#define FILE_DIR "Assets/Map/Turfs"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// PRE_INCLUDE
+#include "Code/00-Dependencies/00-Defines.dm"
+#include "Code/00-Dependencies/01-Project Libraries.dm"
+#include "Code/03-Debug/00-Defines.dm"
+// END_PRE_INCLUDE
+
+// BEGIN_INCLUDE
+#include <deviantcoder\byondboost\ByondBoost.dme>
+#include "00-ByondBoost Project Template Info.dm"
+#include "00-Documentation.dm"
+#include "Code\00-Dependencies\00-Defines.dm"
+#include "Code\00-Dependencies\01-Project Libraries.dm"
+#include "Code\01-Defaults\00-Game Defaults.dm"
+#include "Code\01-Defaults\01-Update Loop Priorities.dm"
+#include "Code\02-Game\00-Game.dm"
+#include "Code\02-Game\01-Startup.dm"
+#include "Code\02-Game\Map\Objs\PhysicsObj.dm"
+#include "Code\02-Game\Map\Objs\Scannable.dm"
+#include "Code\02-Game\Map\Objs\Scenery.dm"
+#include "Code\02-Game\Map\Turfs\00 - TeleportTurf Datum.dm"
+#include "Code\02-Game\Map\Turfs\PhysicsTurf.dm"
+#include "Code\02-Game\Map\Turfs\TeleporterTurf.dm"
+#include "Code\02-Game\Map\Turfs\WorldTurf.dm"
+#include "Code\02-Game\Player\00-Player.dm"
+#include "Code\02-Game\Player\01-Input.dm"
+#include "Code\02-Game\Player\Chat\ChatHandler.dm"
+#include "Code\02-Game\Scenes\MainScene\00-MainScene.dm"
+#include "Code\02-Game\Scenes\MainScene\Transitions\00-MainTransition.dm"
+#include "Code\02-Game\Sounds\00-General Sounds.dm"
+#include "Code\02-Game\Windows\00-MainWindow.dm"
+#include "Code\02-Game\Windows\DisplayMaps\00-MainDisplayMap.dm"
+#include "Code\02-Game\Windows\DisplayWindows\00-MainDisplayWindow.dm"
+#include "Code\03-Debug\00-Defines.dm"
+#include "Code\03-Debug\01-DebugManager.dm"
+#include "Maps\00-MainMap.dmm"
+#include "Skin\Skin.dmf"
+// END_INCLUDE
